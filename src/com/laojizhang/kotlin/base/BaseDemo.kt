@@ -1,7 +1,6 @@
 package com.laojizhang.kotlin.base
 
 import com.laojizhang.kotlin.clazz.ChildClass
-import com.laojizhang.kotlin.clazz.ClassDemo
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.properties.Delegates
@@ -51,7 +50,7 @@ class BaseDemo {
     // 单例模式 你经常写的
     object Single {
         const val myAge = 18
-        fun aaa():Int{
+        fun aaa(): Int {
             return 1
         }
     }
